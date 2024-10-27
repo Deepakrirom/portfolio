@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' sans-serif;
+    text-decoration: none;
+    list-style: none;
+
+}
+ header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 65%;
+    padding: 20px 10%;
+    background: rgb(168, 167, 167);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+ .navbar a {
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px;
+
+}
+.navbar a:hover,
+.navbar a:active {
+    color: orangered;
+    border-bottom:3px ;
+}
+.contact {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: 2px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+.contact:hover{
+    background-color: orangered;
+    color: aliceblue;
+}
+.home{
+    width: 100%;
+    min-height: 100vh;
+    background:rgb(2, 2, 71);
+    align-items: center;
+    padding: 30px 12% 0px;
+    display: flex;
+
+}
+.home-content{
+    max-width: 500px;
+}
+.home-content h3{
+    font-size: 30px;
+    color: azure;
+}
+.home-content h1{
+    font-size: 20px;
+    color: aqua;
+}
+.home-content p{
+    font-size: 18px;
+    margin: 25px 0 30px;
+    font-weight: 400;
+    color: aliceblue;
+}
+.btn-box{
+    width: 15px 30px;
+    display: flex;
+}
+.btn-1{
+    padding: 10px 25px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: antiquewhite;
+    color: black;
+}
+.btn-1:hover{
+    color: antiquewhite;
+    background-color: orangered;
+}
+.img-box img{
+    border-radius:190% ;
+    width:300px ;
+}
+.home-sci{
+    position: absolute;
+    bottom: 40px;
+    width: 170px;
+    background: aqua;
+}
